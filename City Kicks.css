@@ -1,0 +1,70 @@
+* {
+    box-sizing: inherit;
+}
+
+header {
+    font-family: 'Monoton';
+    text-align: center;
+    margin: auto;
+    font-size: 60px;
+    padding: 10px;
+}
+
+.cart {
+    float: right;
+    margin: auto;
+}
+
+.cart img{
+    width: 35px;
+    padding: 10px;
+}
+
+section {
+    gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 10px;
+    background-color: rgb(225, 225, 225);
+}
+
+h1 {
+    font-family: 'Kdam Thmor Pro';
+    font-weight: bold;
+    text-align: center;
+    font-style: oblique;
+}
+
+h2, h3 {
+    font-family: 'Kdam Thmor Pro';
+    font-weight: lighter;
+}
+
+.inventory {
+    display: grid;
+    gap: 10px;
+}
+
+.shoe {
+    display: flex;
+    flex-flow: column wrap;
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    background-color: rgb(255, 255, 255);
+}
+
+.shoe-img {
+    width: calc(100% - 10px);
+    margin: 20px 10px 30px;
+}
+
+.shoe-img img{
+    display: flex;
+    width: 300px;
+    margin: auto;
+}
+
+.shoe-info {
+    margin: 10px;
+    text-align: center;
+}
